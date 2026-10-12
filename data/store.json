@@ -1,0 +1,686 @@
+{
+  "users": [
+    {
+      "id": "usr_ustadh_farooq",
+      "username": "ustadh_farooq",
+      "displayName": "Ustadh Farooq Al-Azhari",
+      "role": "teacher",
+      "ageGroup": "12-15",
+      "enrolledMadrasas": [
+        "madrasa_noor_academy"
+      ],
+      "passcode": "1234",
+      "joinedAt": "2026-10-05"
+    },
+    {
+      "id": "usr_muallima_fatima",
+      "username": "muallima_fatima",
+      "displayName": "Mu'allima Fatima Zahra",
+      "role": "teacher",
+      "ageGroup": "9-11",
+      "enrolledMadrasas": [
+        "madrasa_hikmah"
+      ],
+      "passcode": "1234",
+      "joinedAt": "2026-10-05"
+    },
+    {
+      "id": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "role": "student",
+      "ageGroup": "9-11",
+      "enrolledMadrasas": [
+        "madrasa_noor_academy",
+        "madrasa_hikmah"
+      ],
+      "passcode": "1234",
+      "joinedAt": "2026-10-05"
+    },
+    {
+      "id": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "role": "student",
+      "ageGroup": "12-15",
+      "enrolledMadrasas": [
+        "madrasa_noor_academy"
+      ],
+      "passcode": "1234",
+      "joinedAt": "2026-10-05"
+    },
+    {
+      "id": "usr_rayyan",
+      "username": "rayyan_star",
+      "displayName": "Rayyan Ahmed",
+      "role": "student",
+      "ageGroup": "5-8",
+      "enrolledMadrasas": [
+        "madrasa_hikmah"
+      ],
+      "passcode": "1234",
+      "joinedAt": "2026-10-06"
+    },
+    {
+      "id": "usr_maryam",
+      "username": "maryam_rose",
+      "displayName": "Maryam Khan",
+      "role": "student",
+      "ageGroup": "9-11",
+      "enrolledMadrasas": [
+        "madrasa_noor_academy"
+      ],
+      "passcode": "1234",
+      "joinedAt": "2026-10-05"
+    },
+    {
+      "id": "usr_hamza",
+      "username": "hamza_lion",
+      "displayName": "Hamza Tariq",
+      "role": "student",
+      "ageGroup": "12-15",
+      "enrolledMadrasas": [
+        "madrasa_noor_academy"
+      ],
+      "passcode": "1234",
+      "joinedAt": "2026-10-06"
+    }
+  ],
+  "madrasas": [
+    {
+      "id": "madrasa_noor_academy",
+      "name": "Dar-ul-Nur Islamic Academy",
+      "nameUr": "دار النور اسلامک اکیڈمی",
+      "code": "NUR-786",
+      "description": "A comprehensive youth study circle focusing on Quranic understanding, Seerah morals, daily prayers, and character excellence for young Muslims.",
+      "teacherId": "usr_ustadh_farooq",
+      "teacherName": "Ustadh Farooq Al-Azhari",
+      "ageGroup": "all",
+      "createdDate": "2026-10-05",
+      "studentIds": [
+        "usr_zayd",
+        "usr_ayesha",
+        "usr_maryam",
+        "usr_hamza"
+      ],
+      "lessons": [
+        {
+          "id": "les_fatiha_keys",
+          "madrasaId": "madrasa_noor_academy",
+          "title": "The Seven Keys of Surah Al-Fatiha in Daily Salah",
+          "titleUr": "روزانہ نماز میں سورۃ الفاتحہ کی سات کنجیاں",
+          "subject": "quran",
+          "ageGroup": "all",
+          "content": "Surah Al-Fatiha is known as Umm al-Kitab (the Mother of the Book). Every day, we recite it at least 17 times in our obligatory prayers. In this lesson, we study why Allah begins with Ar-Rahman Ar-Rahim (The Entirely Merciful, The Especially Merciful) and how calling upon \"Ihdinas-Sirat al-Mustaqeem\" guides every decision we make in school and with friends.",
+          "arabicVerse": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "transliteration": "Ihdinas-sirat al-mustaqeem",
+          "translation": "Guide us to the Straight Path.",
+          "audioScript": "Assalamu Alaikum dear students! In today’s lesson, Ustadh Farooq introduces the beauty of Surah Al-Fatiha. When you stand in prayer, remember you are speaking directly with your Creator. Asking for the Straight Path means asking for guidance in honesty, kindness, and knowledge.",
+          "points": 50,
+          "createdAt": "2026-10-05",
+          "createdBy": "Ustadh Farooq Al-Azhari"
+        },
+        {
+          "id": "les_sadiq_amin",
+          "madrasaId": "madrasa_noor_academy",
+          "title": "Character First: How the Prophet (SAW) Earned Al-Amin",
+          "titleUr": "کردار کی عظمت: نبی کریم ﷺ کو الامین کا لقب کیسے ملا",
+          "subject": "seerah",
+          "ageGroup": "9-11",
+          "content": "Even before receiving Revelation, everyone in Makkah trusted Prophet Muhammad (SAW) because he never uttered a single untruth. In your classroom, sports team, and family life, your honesty is your greatest light.",
+          "arabicVerse": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ",
+          "transliteration": "Wa innaka la‘ala khuluqin ‘adheem",
+          "translation": "And indeed, you are of a great moral character.",
+          "points": 40,
+          "createdAt": "2026-10-06",
+          "createdBy": "Ustadh Farooq Al-Azhari"
+        },
+        {
+          "id": "les_wudu_purity",
+          "madrasaId": "madrasa_noor_academy",
+          "title": "The Light of Taharah & Step-by-Step Wudu",
+          "titleUr": "طہارت کا نور اور وضو کا مسنون طریقہ",
+          "subject": "fiqh",
+          "ageGroup": "all",
+          "content": "Purity (Taharah) is half of faith. Before we stand before Allah in Salah, we wash our hands, mouth, nose, face, arms, head, and feet with mindfulness. Every drop of water in Wudu washes away minor mistakes and brings spiritual freshness.",
+          "arabicVerse": "الطُّهُورُ شَطْرُ الإِيمَانِ",
+          "transliteration": "At-tuhuru shatrul-iman",
+          "translation": "Purity is half of faith.",
+          "points": 45,
+          "createdAt": "2026-10-06",
+          "createdBy": "Ustadh Farooq Al-Azhari"
+        },
+        {
+          "id": "les_parents_respect",
+          "madrasaId": "madrasa_noor_academy",
+          "title": "Honoring Parents & Speaking with Gentleness",
+          "titleUr": "والدین کا احترام اور باادب گفتگو",
+          "subject": "akhlaq",
+          "ageGroup": "all",
+          "content": "In Islam, honoring parents is commanded right alongside the worship of Allah. Treating mother and father with gentleness, gratitude, and patience brings peace into the home and the highest reward in Jannah.",
+          "arabicVerse": "وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
+          "transliteration": "Wa qul lahuma qawlan kareema",
+          "translation": "And speak to them both a noble, respectful word.",
+          "points": 45,
+          "createdAt": "2026-10-06",
+          "createdBy": "Ustadh Farooq Al-Azhari"
+        },
+        {
+          "id": "les_seeking_ilm",
+          "madrasaId": "madrasa_noor_academy",
+          "title": "The Value of Seeking Knowledge in Islam",
+          "titleUr": "دینی و مفید علم کی فضیلت اور طلب",
+          "subject": "history",
+          "ageGroup": "12-15",
+          "content": "From reading the first word of Revelation \"Iqra\" to exploring science, nature, and the universe, seeking beneficial knowledge with sincere intention is an act of worship in Islam.",
+          "arabicVerse": "طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ",
+          "transliteration": "Talabul-‘ilmi faridatun ‘ala kulli Muslim",
+          "translation": "Seeking knowledge is an obligation upon every Muslim.",
+          "points": 50,
+          "createdAt": "2026-10-06",
+          "createdBy": "Ustadh Farooq Al-Azhari"
+        },
+        {
+          "id": "les_good_manners_scale",
+          "madrasaId": "madrasa_noor_academy",
+          "title": "The Heaviest Deed on the Scale: Good Character",
+          "titleUr": "میزان پر سب سے وزنی عمل: حسنِ اخلاق",
+          "subject": "akhlaq",
+          "ageGroup": "9-11",
+          "content": "A gentle greeting, speaking the truth, forgiving others, and controlling anger are deeds that outweigh vast mountains on the scale of deeds on the Day of Judgment.",
+          "arabicVerse": "مَا مِنْ شَيْءٍ أَثْقَلُ فِي مِيزَانِ الْمُؤْمِنِ مِنْ حُسْنِ الْخُلُقِ",
+          "transliteration": "Ma min shay’in athqalu fi mizani al-mu’mini min husnil-khuluq",
+          "translation": "Nothing is heavier on the scale of a believer than good character.",
+          "points": 45,
+          "createdAt": "2026-10-06",
+          "createdBy": "Ustadh Farooq Al-Azhari"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "quiz_fatiha_mastery",
+          "madrasaId": "madrasa_noor_academy",
+          "lessonId": "les_fatiha_keys",
+          "title": "Surah Al-Fatiha Understanding Quiz",
+          "subject": "Quranic Studies",
+          "points": 60,
+          "createdAt": "2026-10-05",
+          "questions": [
+            {
+              "q": "What is another name for Surah Al-Fatiha mentioned by the Prophet (SAW)?",
+              "options": [
+                "Umm al-Kitab (Mother of the Book)",
+                "The Garden of Date Palms",
+                "The Mountain Journey"
+              ],
+              "correct": 0,
+              "explanation": "The Prophet (SAW) called it Umm al-Kitab because it summarizes the entire Quran."
+            },
+            {
+              "q": "What does \"Ihdinas-Sirat al-Mustaqeem\" mean in English?",
+              "options": [
+                "Guide us to the Straight Path",
+                "Help us travel across deserts",
+                "Count the blessings of rain"
+              ],
+              "correct": 0,
+              "explanation": "It is our daily supplication for moral and spiritual direction."
+            },
+            {
+              "q": "How many times do we recite Surah Al-Fatiha in the 5 daily Fard prayers?",
+              "options": [
+                "17 times minimum",
+                "3 times only",
+                "40 times"
+              ],
+              "correct": 0,
+              "explanation": "Fajr (2) + Dhuhr (4) + Asr (4) + Maghrib (3) + Isha (4) = 17 rakats total."
+            }
+          ]
+        }
+      ],
+      "announcements": [
+        {
+          "id": "ann_1",
+          "title": "Welcome to Dar-ul-Nur Academy!",
+          "body": "All students are encouraged to complete the Surah Al-Fatiha lesson and log their 5 daily prayers.",
+          "timestamp": "2026-10-05T09:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "madrasa_hikmah",
+      "name": "Bait-ul-Hikmah Junior Circle",
+      "nameUr": "بیت الحکمہ جونیئر سرکل",
+      "code": "HIKMAH-101",
+      "description": "A warm, interactive study circle for young children (Ages 5 to 11) focusing on Prophet Stories, everyday Islamic manners, and daily Duas.",
+      "teacherId": "usr_muallima_fatima",
+      "teacherName": "Mu'allima Fatima Zahra",
+      "ageGroup": "5-8",
+      "createdDate": "2026-10-06",
+      "studentIds": [
+        "usr_zayd",
+        "usr_rayyan"
+      ],
+      "lessons": [
+        {
+          "id": "les_smile_charity",
+          "madrasaId": "madrasa_hikmah",
+          "title": "Smiling is Charity (Tabassumuka Sadaqah)",
+          "titleUr": "مسکرانا بھی صدقہ ہے",
+          "subject": "akhlaq",
+          "ageGroup": "5-8",
+          "content": "The Prophet (SAW) always had a warm smile on his face. He taught that even if you have nothing to give, meeting someone with a bright smile is recorded by Allah as a beautiful charity!",
+          "arabicVerse": "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ لَكَ صَدَقَةٌ",
+          "transliteration": "Tabassumuka fi wajhi akhika laka sadaqah",
+          "translation": "Your smiling in the face of your brother is charity.",
+          "points": 35,
+          "createdAt": "2026-10-06",
+          "createdBy": "Mu'allima Fatima Zahra"
+        },
+        {
+          "id": "les_eating_manners",
+          "madrasaId": "madrasa_hikmah",
+          "title": "Sunnah Manners of Eating & Gratitude",
+          "titleUr": "کھانے کے مسنون آداب اور شکر گزاری",
+          "subject": "akhlaq",
+          "ageGroup": "5-8",
+          "content": "Before eating, we wash our hands, say Bismillah, eat with the right hand from what is near us, and praise Allah with Alhamdulillah when finished.",
+          "arabicVerse": "يَا غُلاَمُ سَمِّ اللَّهَ وَكُلْ بِيَمِينِكَ",
+          "transliteration": "Ya ghulamu sammillaha wa kul bi-yameenik",
+          "translation": "O young boy, mention the Name of Allah and eat with your right hand.",
+          "points": 35,
+          "createdAt": "2026-10-06",
+          "createdBy": "Mu'allima Fatima Zahra"
+        },
+        {
+          "id": "les_truth_honesty",
+          "madrasaId": "madrasa_hikmah",
+          "title": "Truthfulness Leads to Goodness & Peace",
+          "titleUr": "سچائی نیکی اور سلامتی کا راستہ ہے",
+          "subject": "akhlaq",
+          "ageGroup": "5-8",
+          "content": "Speaking the truth even when it feels difficult earns trust, protects our hearts, and brings the love of Allah and our family.",
+          "arabicVerse": "عَلَيْكُمْ بِالصِّدْقِ فَإِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ",
+          "transliteration": "‘Alaykum bis-sidqi fa-inna as-sidqa yahdi ilal-birr",
+          "translation": "Hold firmly to truthfulness, for truthfulness leads to righteousness.",
+          "points": 40,
+          "createdAt": "2026-10-06",
+          "createdBy": "Mu'allima Fatima Zahra"
+        },
+        {
+          "id": "les_kindness_creatures",
+          "madrasaId": "madrasa_hikmah",
+          "title": "Caring for Animals and Nature",
+          "titleUr": "جانوروں اور پرندوں پر رحم اور نگہبانی",
+          "subject": "akhlaq",
+          "ageGroup": "5-8",
+          "content": "Feeding birds, watering plants, and being gentle with kittens and pets are quiet deeds beloved by Allah.",
+          "arabicVerse": "ارْحَمُوا مَنْ فِي الأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ",
+          "transliteration": "Irhamoo man fil-ardi yarhamkum man fis-samaa",
+          "translation": "Have mercy upon those on Earth, and the One in the Heavens will have mercy upon you.",
+          "points": 40,
+          "createdAt": "2026-10-06",
+          "createdBy": "Mu'allima Fatima Zahra"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "quiz_manners_1",
+          "madrasaId": "madrasa_hikmah",
+          "lessonId": "les_smile_charity",
+          "title": "Islamic Manners & Kindness Quiz",
+          "subject": "Daily Akhlaq",
+          "points": 40,
+          "createdAt": "2026-10-06",
+          "questions": [
+            {
+              "q": "What should we say when we meet a Muslim brother, sister, or elder?",
+              "options": [
+                "Assalamu Alaikum (Peace be upon you)",
+                "Goodbye and run",
+                "Stay quiet"
+              ],
+              "correct": 0,
+              "explanation": "Saying Assalamu Alaikum spreads love and peace."
+            },
+            {
+              "q": "According to the Hadith, smiling at someone with kindness counts as what?",
+              "options": [
+                "Sadaqah (Charity)",
+                "Homework",
+                "A sports trophy"
+              ],
+              "correct": 0,
+              "explanation": "The Prophet (SAW) taught: Smiling in your brother’s face is charity."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_1",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "ageGroup": "12-15",
+      "madrasaId": "madrasa_noor_academy",
+      "date": "2026-10-07",
+      "category": "madrasa_lesson",
+      "label": "Completed Lesson: The Seven Keys of Surah Al-Fatiha",
+      "points": 50,
+      "activityKey": "madrasa_les_fatiha_keys",
+      "timestamp": "2026-10-07T06:15:00.000Z"
+    },
+    {
+      "id": "act_2",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "ageGroup": "12-15",
+      "madrasaId": "madrasa_noor_academy",
+      "date": "2026-10-07",
+      "category": "madrasa_quiz",
+      "label": "Surah Al-Fatiha Understanding Quiz (3/3 100%)",
+      "points": 60,
+      "activityKey": "madrasa_quiz_fatiha_mastery",
+      "timestamp": "2026-10-07T06:40:00.000Z"
+    },
+    {
+      "id": "act_3",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "ageGroup": "12-15",
+      "madrasaId": "madrasa_noor_academy",
+      "date": "2026-10-07",
+      "category": "salah",
+      "label": "Fajr & Dhuhr Prayers on Time",
+      "points": 60,
+      "activityKey": "salah_dhuhr_2026-10-07",
+      "timestamp": "2026-10-07T12:35:00.000Z"
+    },
+    {
+      "id": "act_4",
+      "userId": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "ageGroup": "9-11",
+      "madrasaId": "madrasa_noor_academy",
+      "date": "2026-10-07",
+      "category": "madrasa_lesson",
+      "label": "Completed Lesson: The Seven Keys of Surah Al-Fatiha",
+      "points": 50,
+      "activityKey": "madrasa_les_fatiha_keys",
+      "timestamp": "2026-10-07T07:10:00.000Z"
+    },
+    {
+      "id": "act_5",
+      "userId": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "ageGroup": "9-11",
+      "madrasaId": "madrasa_noor_academy",
+      "date": "2026-10-07",
+      "category": "salah",
+      "label": "Fajr Prayer on Time",
+      "points": 30,
+      "activityKey": "salah_fajr_2026-10-07",
+      "timestamp": "2026-10-07T05:30:00.000Z"
+    },
+    {
+      "id": "act_6",
+      "userId": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "ageGroup": "9-11",
+      "madrasaId": "madrasa_noor_academy",
+      "date": "2026-10-07",
+      "category": "teacher_star",
+      "label": "Ustadh Farooq: Star Award for Beautiful Recitation",
+      "points": 25,
+      "activityKey": "star_zayd_2026-10-07",
+      "timestamp": "2026-10-07T08:00:00.000Z"
+    },
+    {
+      "id": "act_7",
+      "userId": "usr_maryam",
+      "username": "maryam_rose",
+      "displayName": "Maryam Khan",
+      "ageGroup": "9-11",
+      "madrasaId": "madrasa_noor_academy",
+      "date": "2026-10-07",
+      "category": "madrasa_quiz",
+      "label": "Surah Al-Fatiha Understanding Quiz (3/3 100%)",
+      "points": 60,
+      "activityKey": "madrasa_quiz_fatiha_mastery",
+      "timestamp": "2026-10-07T09:20:00.000Z"
+    },
+    {
+      "id": "act_8",
+      "userId": "usr_rayyan",
+      "username": "rayyan_star",
+      "displayName": "Rayyan Ahmed",
+      "ageGroup": "5-8",
+      "madrasaId": "madrasa_hikmah",
+      "date": "2026-10-07",
+      "category": "madrasa_lesson",
+      "label": "Completed Lesson: Smiling is Charity",
+      "points": 35,
+      "activityKey": "madrasa_les_smile_charity",
+      "timestamp": "2026-10-07T10:15:00.000Z"
+    }
+  ],
+  "quizAttempts": [
+    {
+      "id": "qa_aye_1",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_fatiha_mastery",
+      "quizTitle": "Surah Al-Fatiha Understanding",
+      "subject": "Quranic Studies",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 60,
+      "date": "2026-10-07",
+      "timestamp": "2026-10-07T06:40:00.000Z"
+    },
+    {
+      "id": "qa_aye_2",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_patience",
+      "quizTitle": "Prophets of Resilience & Patience",
+      "subject": "Seerah & Hadith",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 60,
+      "date": "2026-10-06",
+      "timestamp": "2026-10-06T14:15:00.000Z"
+    },
+    {
+      "id": "qa_aye_3",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_manners",
+      "quizTitle": "Islamic Manners & Akhlaq",
+      "subject": "Daily Akhlaq",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 50,
+      "date": "2026-10-05",
+      "timestamp": "2026-10-05T11:20:00.000Z"
+    },
+    {
+      "id": "qa_aye_4",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_salah_pillars",
+      "quizTitle": "Pillars of Salah & Conditions",
+      "subject": "Fiqh & Salah",
+      "score": 4,
+      "totalQuestions": 5,
+      "percentage": 80,
+      "pointsEarned": 48,
+      "date": "2026-10-04",
+      "timestamp": "2026-10-04T17:30:00.000Z"
+    },
+    {
+      "id": "qa_aye_5",
+      "userId": "usr_ayesha",
+      "username": "ayesha_noor",
+      "displayName": "Ayesha Siddiqua",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_daily_duas",
+      "quizTitle": "Essential Daily Supplications",
+      "subject": "Quranic Studies",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 60,
+      "date": "2026-10-02",
+      "timestamp": "2026-10-02T09:00:00.000Z"
+    },
+    {
+      "id": "qa_zayd_1",
+      "userId": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_fatiha_mastery",
+      "quizTitle": "Surah Al-Fatiha Understanding",
+      "subject": "Quranic Studies",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 60,
+      "date": "2026-10-07",
+      "timestamp": "2026-10-07T08:15:00.000Z"
+    },
+    {
+      "id": "qa_zayd_2",
+      "userId": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_patience",
+      "quizTitle": "Prophets of Resilience & Patience",
+      "subject": "Seerah & Hadith",
+      "score": 2,
+      "totalQuestions": 3,
+      "percentage": 67,
+      "pointsEarned": 40,
+      "date": "2026-10-06",
+      "timestamp": "2026-10-06T15:10:00.000Z"
+    },
+    {
+      "id": "qa_zayd_3",
+      "userId": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_manners",
+      "quizTitle": "Islamic Manners & Akhlaq",
+      "subject": "Daily Akhlaq",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 50,
+      "date": "2026-10-05",
+      "timestamp": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "id": "qa_zayd_4",
+      "userId": "usr_zayd",
+      "username": "zayd_explorer",
+      "displayName": "Zayd Al-Mansoor",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_salah_pillars",
+      "quizTitle": "Pillars of Salah & Conditions",
+      "subject": "Fiqh & Salah",
+      "score": 4,
+      "totalQuestions": 5,
+      "percentage": 80,
+      "pointsEarned": 48,
+      "date": "2026-10-03",
+      "timestamp": "2026-10-03T16:45:00.000Z"
+    },
+    {
+      "id": "qa_maryam_1",
+      "userId": "usr_maryam",
+      "username": "maryam_rose",
+      "displayName": "Maryam Khan",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_fatiha_mastery",
+      "quizTitle": "Surah Al-Fatiha Understanding",
+      "subject": "Quranic Studies",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 60,
+      "date": "2026-10-07",
+      "timestamp": "2026-10-07T09:20:00.000Z"
+    },
+    {
+      "id": "qa_maryam_2",
+      "userId": "usr_maryam",
+      "username": "maryam_rose",
+      "displayName": "Maryam Khan",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_manners",
+      "quizTitle": "Islamic Manners & Akhlaq",
+      "subject": "Daily Akhlaq",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 50,
+      "date": "2026-10-06",
+      "timestamp": "2026-10-06T13:40:00.000Z"
+    },
+    {
+      "id": "qa_hamza_1",
+      "userId": "usr_hamza",
+      "username": "hamza_lion",
+      "displayName": "Hamza Tariq",
+      "madrasaId": "madrasa_noor_academy",
+      "quizId": "quiz_amin",
+      "quizTitle": "Character First (Al-Amin)",
+      "subject": "Seerah & Hadith",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "pointsEarned": 60,
+      "date": "2026-10-06",
+      "timestamp": "2026-10-06T16:20:00.000Z"
+    },
+    {
+      "id": "qa_rayyan_1",
+      "userId": "usr_rayyan",
+      "username": "rayyan_star",
+      "displayName": "Rayyan Ahmed",
+      "madrasaId": "madrasa_hikmah",
+      "quizId": "quiz_manners_1",
+      "quizTitle": "Islamic Manners & Kindness",
+      "subject": "Daily Akhlaq",
+      "score": 2,
+      "totalQuestions": 2,
+      "percentage": 100,
+      "pointsEarned": 40,
+      "date": "2026-10-07",
+      "timestamp": "2026-10-07T10:30:00.000Z"
+    }
+  ]
+}

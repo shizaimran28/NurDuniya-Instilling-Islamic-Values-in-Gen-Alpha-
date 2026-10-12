@@ -1,0 +1,6 @@
+{
+  "name": "Nur Duniya",
+  "description": "Interactive Islamic learning platform featuring a comprehensive homepage with lessons, Prophet and moral audio stories, daily Salah and Dua trackers, Madrasa Hub classroom management, interactive quizzes, and student leadership boards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
